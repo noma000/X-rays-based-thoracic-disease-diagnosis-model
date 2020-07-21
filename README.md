@@ -1,12 +1,13 @@
 <img src="http://xai.unist.ac.kr/static/img/logos/XAIC_logo.png" width="300" height="100">
 
-# Visualizing and Lingustic Explaining Alzheimer's Disease
+# X-rays-based-thoracic-disease-diagnosis-model
 
 ### **CONTENT**
-> 3D convolutional neural network (CNN) for classifying AD(Alzheimer's Disease) and NC(Normal Controls) in MRI scans with Grad-CAM and rule-based algorithm to provide explanation of result
+> Synthesize the pneumonia patient's x-ray image to a normal person using GAN(Generative Adversarial Network) for a counterfactual explanation. This allows the patient to intuitively understand when the disease does not exist.
 
 ### **Dataset**
->http://adni.loni.usc.edu/data-samples/data-types/
+>https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/data
+>https://drive.google.com/drive/folders/1dadx0hiMYrj13DYhLML0ZRvvzQxFB4e0?usp=sharing
 
 ### **Reference**
 > heatmapping.org
