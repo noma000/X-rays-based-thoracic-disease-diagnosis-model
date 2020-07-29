@@ -11,20 +11,20 @@
 
 
 ### **Setting file path**
-> You need three data (1. images, 2. bounding_box.pickle, 3. label_file)
-> Download RSNA-Pneumonia dataset from kaggle and place all images to ./image 
-> Bounding box information is saved on ./data/bounding_box.pickle, this file including x,y,w,h information on ground truth boxes
-> Label_file includes the number of data of train/validation file, attributes, and label information for each image
+> You need three data (1. images, 2. bounding_box.pickle, 3. label_file)  
+> Download RSNA-Pneumonia dataset from kaggle and place all images to ./image  
+> Bounding box information is saved on ./data/bounding_box.pickle, this file including x,y,w,h information on ground truth boxes  
+> Label_file includes the number of data of train/validation file, attributes, and label information for each image  
 
 ### **How to training**
-> Check ./images, ./data/boxinfo.pickle, ./label_file and run main.py
-> You can change training parameters in main.py
+> Check ./images, ./data/boxinfo.pickle, ./label_file and run main.py  
+> You can change training parameters in main.py  
 
 ### **Generate lesion map
-> python3 run.py --file_path --g_path --d_path
-> --file_path : The input x-ray image
-> --g_path : Trained generator weight file
-> --d_path : Trained discriminator weight file
+> python3 run.py --file_path --g_path --d_path  
+> --file_path : The input x-ray image  
+> --g_path : Trained generator weight file  
+> --d_path : Trained discriminator weight file  
 
 > Results
 
