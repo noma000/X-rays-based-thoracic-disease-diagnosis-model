@@ -26,8 +26,10 @@
 > --g_path : Trained generator weight file  
 > --d_path : Trained discriminator weight file  
 
-> Results
-<images>
+### **Results**
+<img src="./Samples.JPG" width="300" height="100">
+
+  
 ### **Reference**
 > heatmapping.org
 # XAI Project 
