@@ -12,9 +12,9 @@
 
 ### **Setting file path**
 > You need three data (1. images, 2. bounding_box.pickle, 3. label_file)  
-> Download RSNA-Pneumonia dataset from kaggle and place all images to ./image  
-> Bounding box information is saved on ./data/bounding_box.pickle, this file including x,y,w,h information on ground truth boxes  
-> Label_file includes the number of data of train/validation file, attributes, and label information for each image  
+> 1. Download RSNA-Pneumonia dataset from kaggle and place all images to ./image  
+> 2. Bounding box information is saved on ./data/bounding_box.pickle, this file including x,y,w,h information on ground truth boxes  
+> 3. Label_file includes the number of data of train/validation file, attributes, and label information for each image  
 
 ### **How to training**
 > Check ./images, ./data/boxinfo.pickle, ./label_file and run main.py  
@@ -27,7 +27,7 @@
 > --d_path : Trained discriminator weight file  
 
 > Results
-
+<images>
 ### **Reference**
 > heatmapping.org
 # XAI Project 
