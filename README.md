@@ -10,14 +10,23 @@
 >https://drive.google.com/drive/folders/1dadx0hiMYrj13DYhLML0ZRvvzQxFB4e0?usp=sharing
 
 
-### **File path**
->You need three data (1. images, 2. boxinfo, 3. labelinfo)
+### **Setting file path**
+> You need three data (1. images, 2. bounding_box.pickle, 3. label_file)
 > Download RSNA-Pneumonia dataset from kaggle and place all images to ./image 
-> Bounding box information are saved on boxinfo.pickle, this is just for 표기하다 ground box
-> labelinfo는 train/validation의 데이터 개수 attributes 그리고 각 image에 대한 label 정보가 존재
+> Bounding box information is saved on ./data/bounding_box.pickle, this file including x,y,w,h information on ground truth boxes
+> Label_file includes the number of data of train/validation file, attributes, and label information for each image
 
-### **How to training yor model**
+### **How to training**
+> Check ./images, ./data/boxinfo.pickle, ./label_file and run main.py
+> You can change training parameters in main.py
 
+### **Generate lesion map
+> python3 run.py --file_path --g_path --d_path
+> --file_path : The input x-ray image
+> --g_path : Trained generator weight file
+> --d_path : Trained discriminator weight file
+
+> Results
 
 ### **Reference**
 > heatmapping.org
