@@ -27,7 +27,7 @@
 > --d_path : Trained discriminator weight file  
 
 ### **Results**
-<img src="./Samples.JPG" width="300" height="100">
+<img src="./samples.JPG" width="400" height="200">
 
   
 ### **Reference**
