@@ -20,14 +20,14 @@
 > Check ./images, ./data/boxinfo.pickle, ./label_file and run main.py  
 > You can change training parameters in main.py  
 
-### **Generate lesion map
+### **Generating lesion map**
 > python3 run.py --file_path --g_path --d_path  
 > --file_path : The input x-ray image  
 > --g_path : Trained generator weight file  
 > --d_path : Trained discriminator weight file  
 
 ### **Results**
-<img src="./data/samples.jpg" width="1000" height="300">
+<img src="./data/samples.jpg" width="1000" height="350">
 
   
 ### **Reference**
