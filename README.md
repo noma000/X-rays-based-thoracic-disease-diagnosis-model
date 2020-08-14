@@ -19,6 +19,8 @@
 ### **How to training**
 > Check ./images, ./data/boxinfo.pickle, ./label_file and run main.py  
 > You can change training parameters in main.py  
+### **Download pretrained model
+> https://drive.google.com/drive/u/0/folders/1wZ-ZBqkeBU9P6At6FSJsOXE9zW7AK6fI
 
 ### **Generating lesion map**
 > python3 run.py --file_path --g_path --d_path  
