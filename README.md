@@ -5,7 +5,7 @@
 ### **CONTENT**
 > Synthesize the pneumonia patient's x-ray image to a normal person using GAN(Generative Adversarial Network) for a counterfactual explanation. This allows the patient to intuitively understand when the disease does not exist.
 
-### **Dataset**
+### **Dataset and Pretrained model url**
 >https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/data
 >https://drive.google.com/drive/folders/1dadx0hiMYrj13DYhLML0ZRvvzQxFB4e0?usp=sharing
 
@@ -19,8 +19,6 @@
 ### **How to training**
 > Check ./images, ./data/boxinfo.pickle, ./label_file and run main.py  
 > You can change training parameters in main.py  
-### **Download pretrained model
-> https://drive.google.com/drive/u/0/folders/1wZ-ZBqkeBU9P6At6FSJsOXE9zW7AK6fI
 
 ### **Generating lesion map**
 > python3 run.py --file_path --g_path --d_path  
