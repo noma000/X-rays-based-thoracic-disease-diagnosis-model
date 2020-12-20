@@ -42,3 +42,5 @@
 > UNIST, Korea Univ., Yonsei Univ., KAIST., AItrics
 ### **Web Site** 
 > <http://openXai.org>
+### ** Additional captioning dataset ***
+> https://drive.google.com/file/d/1SLQBrafbDi7W3G75bw_tKaV25C3HAk6N/view?usp=sharing
